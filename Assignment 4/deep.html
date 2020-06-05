@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.a { grid-area: header; }
+.b { grid-area: menu; }
+.c { grid-area: main; }
+.d { grid-area: right; }
+.e { grid-area: footer; }
+
+.main {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main right right right'
+    'menu footer footer footer footer footer';
+  grid-gap: 10px;
+  background-color: pink;
+  padding: 10px;
+}
+
+.main > div {
+  background-color: rgba(150, 150, 150, 0.9);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+</style>
+</head>
+<body>
+
+
+<div class="main">
+  <div class="a">Header</div>
+  <div class="b">Menu</div>
+  <div class="c">Main</div>  
+  <div class="d">Right</div>
+  <div class="e">Footer</div>
+</div>
+
+</body>
+</html>
