@@ -1,0 +1,94 @@
+body{
+background:pink;
+font-family: Segoe UI,Arial,sans-serif;
+}
+
+.logo_setting
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 250px;
+}
+
+nav ul
+{
+		
+		margin-left: 200px;
+}
+
+nav ul li{
+	
+	float:left;	
+	padding-left: 45px;
+	padding-right: 45px;
+	margin-left: 20px;
+	border: 2px solid #884e14;
+	list-style-type: none;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: blue;
+	border-radius: 30px;
+	color: #fff;
+}
+
+nav ul li:hover{
+	
+		border: 2px solid #976532;
+	background-color: #e4b17c;
+	color: #976532;
+}
+
+.slider
+{
+	margin-left: 15px;
+	width:97%;
+    float: left;
+    margin-top: 20px;
+}
+
+.alignment
+{
+	width: 80%; 
+	margin-left: 100px;
+	
+	}
+
+.brdr {
+    width: 20%;
+    height: 1px;
+    margin: 0px auto;
+    border-bottom: 2px solid #8a4600;
+}
+	.alignment img
+	{
+		margin-left: 20px;
+		border: 3px solid #fff;    
+    border-radius: 15px;
+	box-shadow: 0px 0px 4px #777;
+	width:17%;
+	height: 50%;
+	}
+	
+	.fl
+	{
+		float: left;
+	}
+	
+	input[type=text] , textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid #8a4600;
+  outline: none;
+}
+
+.btn
+{
+	background-color: #8a4600;
+  color: #fff;
+  border-radius: 10px;
+  padding: 10px 30px;
+}
