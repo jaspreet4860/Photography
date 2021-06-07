@@ -1,0 +1,21 @@
+.bg-color-green{
+    background-color: #5ce5b4;
+}
+.bg-color-white{
+    background-color: #ffffff;
+}
+.card{
+    margin: 1rem 0 0 0;
+    padding: 0.5rem;
+    background-color: #5ce5b4;
+    min-height: 26rem;
+}
+.card a{
+    border-color: #ffffff;
+}
+nav a{
+    color:#ffffff;
+}
+footer {
+    color:#ffffff !important;
+}
