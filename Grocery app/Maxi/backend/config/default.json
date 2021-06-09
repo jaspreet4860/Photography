@@ -1,0 +1,4 @@
+{
+    "mongoDBConnection" : "",
+    "jwtsecret":"secret"
+}
